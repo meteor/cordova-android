@@ -1,6 +1,6 @@
 {
   "name": "cordova-android",
-  "version": "3.5.1",
+  "version": "3.5.1-fix",
   "description": "cordova-android release",
   "main": "bin/create",
   "repository": {

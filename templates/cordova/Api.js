@@ -17,4 +17,4 @@
     under the License.
 */
 
-module.exports = require('cordova-android');
+module.exports = require('@meteorjs/cordova-android');

@@ -1,11 +1,16 @@
 {
-  "name": "@meteor/cordova-android",
+  "name": "@meteorjs/cordova-android",
   "version": "12.0.1",
   "description": "cordova-android release",
   "types": "./types/index.d.ts",
   "main": "lib/Api.js",
-  "repository": "github:apache/cordova-android",
-  "bugs": "https://github.com/apache/cordova-android/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-android.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-android/issues"
+  },
   "keywords": [
     "android",
     "cordova",
@@ -59,5 +64,10 @@
       "lcov",
       "text"
     ]
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "homepage": "https://github.com/apache/cordova-android#readme"
 }

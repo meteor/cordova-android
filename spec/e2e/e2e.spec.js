@@ -56,7 +56,7 @@ describe('E2E', function () {
         // Allow test project to find the `cordova-android` module
         fs.ensureSymlinkSync(
             path.join(__dirname, '../..'),
-            path.join(tmpDir, 'node_modules/@meteorjs/cordova-android'),
+            path.join(tmpDir, 'node_modules/cordova-android'),
             'junction'
         );
 

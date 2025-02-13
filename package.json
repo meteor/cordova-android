@@ -1,5 +1,5 @@
 {
-  "name": "cordova-android",
+  "name": "@meteor/cordova-android",
   "version": "12.0.1",
   "description": "cordova-android release",
   "types": "./types/index.d.ts",
@@ -26,7 +26,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "android-versions": "^1.8.1",
-    "cordova-common": "^5.0.0",
+    "cordova-common": "5.0.0",
     "dedent": "^1.0.1",
     "execa": "^5.1.1",
     "fast-glob": "^3.2.12",

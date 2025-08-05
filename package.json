@@ -34,6 +34,7 @@
     "dedent": "^1.5.3",
     "execa": "^5.1.1",
     "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.0",
     "is-path-inside": "^3.0.3",
     "nopt": "^8.1.0",
     "properties-parser": "^0.6.0",

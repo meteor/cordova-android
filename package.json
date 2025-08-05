@@ -4,8 +4,13 @@
   "description": "cordova-android release",
   "types": "./types/index.d.ts",
   "main": "lib/Api.js",
-  "repository": "github:apache/cordova-android",
-  "bugs": "https://github.com/apache/cordova-android/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-android.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-android/issues"
+  },
   "keywords": [
     "android",
     "cordova",
@@ -25,7 +30,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "android-versions": "^2.1.0",
-    "cordova-common": "^5.0.1",
+    "cordova-common": "5.0.1",
     "dedent": "^1.5.3",
     "execa": "^5.1.1",
     "fast-glob": "^3.3.3",
@@ -58,5 +63,10 @@
       "lcov",
       "text"
     ]
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "homepage": "https://github.com/apache/cordova-android#readme"
 }
